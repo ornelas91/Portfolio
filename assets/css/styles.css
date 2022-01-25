@@ -122,6 +122,10 @@ img {
     height: auto;
 }
 
+.education1 {
+    text-align: right;
+}
+
 .section {
     padding: 2rem 0 4rem;
 }
@@ -477,13 +481,13 @@ img {
 }
 
 .skills__html {
-    width: 80%;
+    width: 70%;
 }
 .skills__css {
     width: 60%;
 }
 .skills__js {
-    width: 40%;
+    width: 20%;
 }
 .skills__react {
     width: 10%;
@@ -511,6 +515,16 @@ img {
 .skills__android {
     width: 10%;
 }
+.skills__netbeans {
+    width: 10%;
+}
+.skills__eclipse {
+    width: 10%;
+}
+.skills__git {
+    width: 20%;
+}
+
 
 .skills__close .skills__list {
     height: 0;
