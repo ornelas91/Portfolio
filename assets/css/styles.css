@@ -336,6 +336,23 @@ img {
     font-size: 1.25rem;
 }
 
+.button-input {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #FFF;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-family: "FontAwesome", Open Sans, Arial;
+}
+
+.button-input:hover {
+    background-color: var(--first-color-alt);
+}
+
 .button {
     display: inline-block;
     background-color: var(--first-color);
