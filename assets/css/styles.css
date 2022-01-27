@@ -788,6 +788,10 @@ img {
     background-color: var(--first-color);
 }
 
+.swiper-pagination {
+    margin-left: 20%;
+}
+
 .swiper-button-prev,
 .swiper-button-next,
 .swiper-pagination-bullet {
