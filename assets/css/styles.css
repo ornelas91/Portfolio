@@ -743,7 +743,7 @@ img {
 }
 
 .portfolio__img {
-    width: 265px;
+    width: 320px;
     height: 200px;
     border-radius: .5rem;
     justify-self: center;
@@ -769,15 +769,15 @@ img {
 
 .swiper-portfolio-icon {
     font-size: 2rem;
-    color: var(--first-color);
+    color: transparent;
 }
 
 .swiper-button-prev {
-    left: -.5rem;
+    margin-left: 0%;
 }
 
 .swiper-button-next {
-    right: -.5rem;
+    margin-right: 0%;
 }
 
 .swiper-container-horizontal > .swiper-pagination-bullets {
@@ -989,6 +989,10 @@ img {
 
     .servoces__modal {
     padding: 0 .5rem;
+    }
+
+    .swiper-portfolio-icon {
+        color: transparent;
     }
 }
 
@@ -1211,6 +1215,10 @@ img {
 
     .swiper-container-horizontal > swiper-pagination-bullets {
         bottom:  -4.5rem;
+    }
+
+    .swiper-portfolio-icon {
+        color: var(--first-color);
     }
 
     .contact__form {
