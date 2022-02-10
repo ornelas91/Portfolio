@@ -107,6 +107,11 @@ body {
 h1, h2,h3,h4 {
     color: var(--title-color);
     font-weight: var(--font-semi-bold);
+    user-select: none;
+}
+
+p, span, div,a {
+    user-select: none;
 }
 
 ul {
@@ -120,6 +125,7 @@ a {
 img {
     max-width: 100%;
     height: auto;
+    pointer-events: none;
 }
 
 .education1 {
