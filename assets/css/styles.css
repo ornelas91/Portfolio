@@ -269,17 +269,74 @@ img {
     row-gap: 1rem;
 }
 
+.home__scroll, .scrollup  {
+    animation: bounce 1s infinite alternate;
+    -webkit-animation: bounce 1s infinite alternate;
+}
+
+.home__img {
+    animation: slideY 2s;
+}
+
+.portfolio__button {
+    animation: shake 2s infinite alternate;
+    -webkit-animation: shake 2s infinite alternate;
+}
+
+@keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+  @-webkit-keyframes bounce {
+    from {
+      transform: translateY(0px);
+    }
+    to {
+      transform: translateY(-15px);
+    }
+  }
+
+@keyframes slideY{
+    from{
+        transform: translateX(900px)
+    } to {
+        transform: translateX(0PX)
+    }
+}
+
+@keyframes shake {
+    10%, 90%{
+        transform: translate3d(-1px, 0, 0)
+    }
+
+    20%, 80%{
+        transform: translate3d(2px, 0, 0)
+    }
+
+    30%, 50%, 70%{
+        transform: translate3d(-4px, 0, 0)
+    }
+
+    40%, 60%{
+        transform: translate3d(4px, 0, 0)
+    }
+}
+
 
 
 .home__social-icon {
     font-size: 1.25rem;
     color: var(--first-color);
     transition: 1s;
+    outline: none;
 }
 
 .home__social-icon:hover {
     color: var(--first-color-alt);
-    font-size: 30px;
 }
 
 .home__blob {
@@ -442,6 +499,7 @@ img {
     align-items: center;
     margin-bottom: var(--mb-2-5);
     cursor: pointer;
+    outline: none;
 }
 
 .skills__icon,
